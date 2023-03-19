@@ -1,5 +1,3 @@
-console.log("index.js");
-
 const twoSumLessThanK = function (A, K) {
   A.sort((a, b) => a - b);
   let min = -1;
